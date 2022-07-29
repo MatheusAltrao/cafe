@@ -1,17 +1,17 @@
 ScrollReveal().reveal('h2', {
-  delay: 100,
+  delay: 300,
   duration: 500,
   reset: false
 })
 
 ScrollReveal().reveal('.text', {
-  delay: 100,
+  delay: 300,
   duration: 500,
   reset: false
 })
 
 ScrollReveal().reveal('.button', {
-  delay: 100,
+  delay: 300,
   duration: 500,
   reset: false
 })

@@ -87,7 +87,7 @@ header .line {
   background-size: cover;
   padding-top: 100px;
   padding-bottom: 100px;
-  height: 100vh;
+  height: 80vh;
 }
 
 .banner .text {
@@ -285,6 +285,12 @@ footer a {
     padding-right: 20px;
   }
 
+  .banner .text img {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
   .area1,
   .area3 {
     grid-template-columns: 3fr 2fr;
@@ -304,6 +310,21 @@ footer a {
   .banner .text {
     padding-left: 20px;
     padding-right: 20px;
+  }
+
+  .banner .text .banner--images {
+    height: 300px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    gap: 2rem;
+  }
+
+  .banner .text .banner--images img {
+    height: 100px;
+    width: 100px;
   }
 
   h1 {
