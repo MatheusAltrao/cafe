@@ -24,3 +24,18 @@ const scrollTop = () => {
 }
 
 document.getElementById('backToTopButton').onclick = scrollTop
+
+const bar = document.getElementById('bar')
+const nav = document.getElementById('navbar')
+const close = document.getElementById('close')
+
+bar && bar.addEventListener('click', () => nav.classList.add('active'))
+close && close.addEventListener('click', () => nav.classList.remove('active'))
+
+const links = document.querySelectorAll(' ul li a')
+
+for (const link of links) {
+  link.addEventListener('click', function () {
+    nav.classList.remove('active')
+  })
+}
